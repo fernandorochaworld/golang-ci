@@ -3,9 +3,25 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(Soma(10, 10))
+	fmt.Println(Sum(10, 10))
 }
 
-func Soma(a int, b int) int {
+func Sum(a int, b int) int {
 	return a + b
+}
+
+func Sub(a int, b int) int {
+	return a - b
+}
+
+func Times(a int, b int) int {
+	return a * b
+}
+
+func Div(a int, b int) int {
+	return a / b
+}
+
+func Sumx(a int, b int) int {
+	return a + b + a
 }
